@@ -19,7 +19,6 @@ class Solution:
                 trace.pop()
         dfs(nums, 0)
         return res
-    
         
 # @lc code=end
 
