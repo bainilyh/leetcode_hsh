@@ -9,7 +9,7 @@ const day = String(now.getDate()).padStart(2, '0');
 const dateStr = `${year}-${month}-${day}`;
 
 // 设置文件路径
-const settingsPath = path.join(process.env.APPDATA, 'Windsurf', 'User', 'settings.json');
+const settingsPath = path.join(process.env.APPDATA, 'Cursor', 'User', 'settings.json');
 
 // 读取现有的 settings.json
 fs.readFile(settingsPath, 'utf8', (err, data) => {
